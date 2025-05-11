@@ -26,18 +26,47 @@ docker-compose up --build
 ## 📁 Repository Structure
 ```text
 SMARTplus/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── docs/
+│   ├── project-overview.md
+│   ├── user-stories.md
+│   ├── system-architecture.png
+│   └── API-docs.md
 ├── frontend/
+│   ├── package.json
+│   ├── src/
+│   │   ├── App.tsx
+│   │   ├── components/
+│   │   └── tests/
 ├── backend/
+│   ├── requirements.txt
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── tests/
 ├── mobile/
+│   ├── android/
+│   ├── ios/
+│   └── src/
 ├── database/
+│   ├── schema.sql
+│   └── seed_data.sql
 ├── dashboards/
-├── deployment/
-└── docs/
+│   ├── nutrition-metrics.pbix
+│   └── performance-dashboard.json
+└── deployment/
+    ├── docker-compose.yml
+    ├── AWS-setup.md
+    └── ssl-config.sh
+
 ```
 
 ## 🤝 Maintainers
-- Dr. Fiona Namuli – Project Manager
-- Isaac Mugisha – Lead Developer
-- Grace Atieno – UX Designer
+- Kayanja Jonathan – Project Manager
+- Musinguzi Steven – Lead Developer
+- Bunya Ronald – UX Designer
 [README_SMARTplus.md](https://github.com/user-attachments/files/20147655/README_SMARTplus.md)
 sample purpose
